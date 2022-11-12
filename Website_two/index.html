@@ -4,37 +4,27 @@
     <title>Быстрый английский</title>
     <meta charset="utf-8 ." />
     <meta name="Быстрый английский" content="Английский язык" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-    />
+
+    <link rel="stylesheet" href="style.css" />
     <script>
       document.createElement("aside");
       document.createElement("article");
     </script>
-    <style>
-      aside {
-        background: #f0f0f0;
-        padding: 10px;
-        width: 200px;
-        float: right;
-      }
-      article {
-        margin-right: 240px;
-        display: block;
-      }
-    </style>
+
     <body>
       <header>
         <aside>
           <figure>
-            <img
-              src="Обложка.png"
-              alt="Быстрый Английский"
-              width="170"
-              height="400"
-            />
-            <figcaption>Быстрый английский</figcaption>
+            <div class="avatar-container">
+              <img
+                class="avatar"
+                src="Обложка.png"
+                alt="Быстрый Английский"
+                width="170"
+                height="400"
+              />
+              <figcaption><span> Быстрый английский</span></figcaption>
+            </div>
           </figure>
         </aside>
         <h3>С.МАТВЕЕВ</h3>
@@ -90,10 +80,10 @@
           </ol>
 
           <h3 id="intro">От автора</h3>
-          <p>Дорогие друзья!</p>
+          <p class="italic">Дорогие друзья!</p>
           <dl>
             <dt>Перед вами,</dt>
-            <dd>
+            <dd class="gavno">
               как заявлено в названии, УНИВЕРСАЛЬНЫЙ учебник, предлагающий
               совершенно НОВЫЙ подход. Что это значит? Разберём по порядку. В
               чём же универсализм данного издания? Неужели мало на свете
@@ -130,13 +120,7 @@
         </article>
 
         <section>
-          <div class="container">
-            <div class="col-6">
-              <div class="p-4 border bg-success">
-                <h2>ОСНОВНЫЕ ПРАВИЛА ЧТЕНИЯ</h2>
-              </div>
-            </div>
-          </div>
+          <h2>ОСНОВНЫЕ ПРАВИЛА ЧТЕНИЯ</h2>
 
           <h3><ins>Английский алфавит</ins></h3>
         </section>

@@ -1,0 +1,33 @@
+body {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  color: #8b4513;
+  background-color: #5f9ea0;
+  white-space: normal;
+  text-transform: uppercase;
+  padding: 425px;
+  margin: 45px;
+}
+
+.avatar-container {
+  text-align: center;
+}
+
+.avatar {
+  vertical-align: top;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.gavno {
+  text-decoration: underline;
+}
